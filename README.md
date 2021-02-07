@@ -1,3 +1,3 @@
 # bens-mcmap
 
-[ee it here.](https://mcmap.netlify.app)
+[See it here.](https://mcmap.netlify.app)
