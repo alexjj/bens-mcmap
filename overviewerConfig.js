@@ -27,7 +27,7 @@ var overviewerConfig = {
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1612736387",
+        "cacheTag": "1612737092",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -41,11 +41,11 @@ var overviewerConfig = {
     },
     "tilesets": [
         {
-            "name": "Overviewer Render (lighting)",
+            "name": "Overviewer Render (smooth_lighting)",
             "zoomLevels": 7,
             "defaultZoom": 1,
             "maxZoom": 7,
-            "path": "world-lighting",
+            "path": "world-smooth_lighting",
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "world",
