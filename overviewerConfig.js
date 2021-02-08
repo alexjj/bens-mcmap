@@ -23,11 +23,12 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "world"
+        "ben - overworld",
+        "ben - nether"
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1612737092",
+        "cacheTag": "1612773761",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -41,14 +42,14 @@ var overviewerConfig = {
     },
     "tilesets": [
         {
-            "name": "Overviewer Render (smooth_lighting)",
+            "name": "Daytime",
             "zoomLevels": 7,
             "defaultZoom": 1,
             "maxZoom": 7,
-            "path": "world-smooth_lighting",
+            "path": "survivalday",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "world",
+            "world": "ben - overworld",
             "last_rendertime": 1612735925,
             "imgextension": "png",
             "isOverlay": false,
@@ -65,6 +66,56 @@ var overviewerConfig = {
                 96,
                 -224
             ],
+            "north_direction": 0
+        },
+        {
+            "name": "Nighttime",
+            "zoomLevels": 7,
+            "defaultZoom": 1,
+            "maxZoom": 7,
+            "path": "survivalnight",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "ben - overworld",
+            "last_rendertime": 1612735925,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                -176,
+                96,
+                -224
+            ],
+            "minZoom": 0,
+            "spawn": [
+                -176,
+                96,
+                -224
+            ],
+            "north_direction": 0
+        },
+        {
+            "name": "The Nether",
+            "zoomLevels": 6,
+            "defaultZoom": 1,
+            "maxZoom": 6,
+            "path": "survivalnether",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "ben - nether",
+            "last_rendertime": 1612735918,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                -176,
+                96,
+                -224
+            ],
+            "minZoom": 0,
+            "spawn": false,
             "north_direction": 0
         }
     ]
