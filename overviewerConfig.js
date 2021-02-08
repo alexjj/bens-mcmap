@@ -28,7 +28,7 @@ var overviewerConfig = {
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1612814209",
+        "cacheTag": "1612822132",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -50,34 +50,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "ben - overworld",
-            "last_rendertime": 1612813783,
-            "imgextension": "png",
-            "isOverlay": false,
-            "poititle": "Markers",
-            "showlocationmarker": true,
-            "center": [
-                -176,
-                96,
-                -224
-            ],
-            "minZoom": 0,
-            "spawn": [
-                -176,
-                96,
-                -224
-            ],
-            "north_direction": 0
-        },
-        {
-            "name": "Nighttime",
-            "zoomLevels": 8,
-            "defaultZoom": 1,
-            "maxZoom": 8,
-            "path": "survivalnight",
-            "base": "",
-            "bgcolor": "#1a1a1a",
-            "world": "ben - overworld",
-            "last_rendertime": 1612813783,
+            "last_rendertime": 1612821471,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
